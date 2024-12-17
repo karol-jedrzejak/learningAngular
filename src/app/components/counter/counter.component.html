@@ -1,1 +1,22 @@
-<p>counter works!</p>
+<p>Counter value: {{ counterValue() }}</p>
+
+<div class="py-2 px-4">
+  <button
+    (click)="increment()"
+    class="bg-blue-500 hover:bg-blue-700 text-white font-bold m-2 p-4 rounded"
+  >
+    Increment
+  </button>
+  <button
+    (click)="reset()"
+    class="bg-blue-500 hover:bg-blue-700 text-white font-bold m-2 p-4 rounded"
+  >
+    Reset
+  </button>
+  <button
+    (click)="decrement()"
+    class="bg-blue-500 hover:bg-blue-700 text-white font-bold m-2 p-4 rounded"
+  >
+    Decrement
+  </button>
+</div>
