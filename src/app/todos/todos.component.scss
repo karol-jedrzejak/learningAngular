@@ -1,0 +1,9 @@
+.todos {
+  padding: 10px;
+  &__item {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+}
